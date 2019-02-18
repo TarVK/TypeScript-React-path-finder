@@ -243,7 +243,7 @@ export default withStyles(styles)(
                             name="Left click"
                             text={
                                 <span>
-                                    Right clicking can be used to toggle between empty cells and the
+                                    Left clicking can be used to toggle between empty cells and the
                                     source
                                     <br /> or between the empty cells and targets if the source is
                                     already present
@@ -265,7 +265,7 @@ export default withStyles(styles)(
                             name="Right click"
                             text={
                                 <span>
-                                    Left clicking can be used to toggle between empty cells and
+                                    Right clicking can be used to toggle between empty cells and
                                     walls
                                     <br /> One can also drag a cell, in order to copy it's data to
                                     neighbours
